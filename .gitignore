@@ -1,0 +1,21 @@
+# Ignore all data directories
+data/
+
+# Ignore Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore model outputs/checkpoints
+models/
+*.pt
+*.pth
+*.bin
+*.pkl
+
+# Ignore IDE or system files
+.DS_Store
+.vscode/
+
+(Reseach paper) Explainable Natural Language Processing for Corporate.pdf
