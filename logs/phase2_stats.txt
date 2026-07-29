@@ -1,0 +1,32 @@
+=== Phase 2 Sentence Segmentation: 2026-07-20T14:08:21.834410 ===
+
+[OK] company=jsw year=2019 type=BRR env_sentences=15
+[OK] company=jsw year=2020 type=BRR env_sentences=23
+[OK] company=jsw year=2021 type=BRR env_sentences=33
+[OK] company=jsw year=2022 type=BRSR env_sentences=61
+[OK] company=jsw year=2023 type=BRSR env_sentences=73
+[OK] company=jsw year=2024 type=BRSR env_sentences=44
+[OK] company=jsw year=2025 type=BRSR env_sentences=83
+[OK] company=tata year=2019 type=BRR env_sentences=28
+[OK] company=tata year=2020 type=BRR env_sentences=40
+[OK] company=tata year=2021 type=BRR env_sentences=34
+[OK] company=tata year=2022 type=BRSR env_sentences=86
+[OK] company=tata year=2023 type=BRSR env_sentences=190
+[OK] company=tata year=2024 type=BRSR env_sentences=51
+[OK] company=tata year=2025 type=BRSR env_sentences=127
+[OK] company=tata year=2026 type=BRSR env_sentences=123
+[OK] company=ultratech year=2019 type=BRR env_sentences=10
+[OK] company=ultratech year=2020 type=BRR env_sentences=25
+[OK] company=ultratech year=2021 type=BRR env_sentences=44
+[OK] company=ultratech year=2022 type=BRSR env_sentences=23
+[OK] company=ultratech year=2023 type=BRSR env_sentences=8
+[OK] company=ultratech year=2024 type=BRSR env_sentences=49
+[OK] company=ultratech year=2025 type=BRSR env_sentences=4
+
+--- Company Stats ---
+  jsw: 332 sentences across 7 files
+  tata: 679 sentences across 8 files
+  ultratech: 163 sentences across 7 files
+
+TOTAL CORPUS: 1174 environmental sentences
+Output: data/sentences/all_sentences.csv

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appendix A: Sample Model Predictions</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, 'Liberation Sans', sans-serif;
+            margin: 30px;
+            color: #333333;
+            background: white;
+        }
+        h2 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        h3 {
+            font-size: 11pt;
+            font-weight: normal;
+            color: #666666;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1.5pt solid #333333;
+        }
+        thead th {
+            background: #333333;
+            color: white;
+            font-weight: bold;
+            font-size: 10pt;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 2pt solid #333333;
+        }
+        thead th:first-child,
+        thead th:nth-child(4),
+        thead th:nth-child(5) {
+            text-align: left;
+        }
+        td {
+            border: 1pt solid #CCCCCC;
+        }
+        .note {
+            font-size: 9pt;
+            color: #666666;
+            margin-top: 15px;
+            font-style: italic;
+            line-height: 1.5;
+        }
+        @media print {
+            body { margin: 15px; }
+            table { font-size: 8pt; }
+        }
+    </style>
+</head>
+<body>
+    <h2>Appendix A: Sample Model Predictions</h2>
+    <h3>Table A.1: Representative Predictions (N=18 selected examples)</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="min-width: 130px;">Sentence ID</th>
+                <th style="min-width: 100px;">Prediction</th>
+                <th style="min-width: 70px;">Confidence</th>
+                <th style="min-width: 250px;">Summary</th>
+                <th style="min-width: 230px;">Interpretation</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        <tr style="background: #FFFFFF; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">UltraTech_2022_045</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #FF8C42;">Vague ⚠️</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.72</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Vague adjectives ('committed', 'pathway'), weak action verb, and distant timeline (2050) without interim targets.</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(255,140,66,0.1);">Classic greenwashing pattern: long-term commitment without specific technology or near-term milestones.</td>
+        </tr>
+        <tr style="background: #F9F9F9; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">JSW_2023_120</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #2E86AB;">Substantive ✓</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.89</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Specific tech (solar), quantified capacity (50 MW), and reports actual emissions reduction (12%) with timeline.</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(46,134,171,0.1);">Strong disclosure: concrete metrics + specific technology choices + measurable outcomes.</td>
+        </tr>
+        <tr style="background: #FFFFFF; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">Tata_2024_078</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #6B7280;">Numeric 📊</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.91</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Contains raw financial data: "1,200 tonnes CO2e", "$5M invested" with specific fiscal year reference.</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(107,114,128,0.1);">Factual reporting; no vagueness present.</td>
+        </tr>
+        <tr style="background: #F9F9F9; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">UltraTech_2023_012</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #FF8C42;">Vague ⚠️</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: #F0F0F0;">0.68</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Uses 'sustainable development' and 'environmentally responsible' without measurable targets.</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(255,140,66,0.1);">Aspirational language masks lack of concrete action plans or quantified goals.</td>
+        </tr>
+        <tr style="background: #FFFFFF; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">JSW_2022_089</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #FF8C42;">Vague ⚠️</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.81</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">References 'net-zero pathway' and 'carbon neutrality journey' without interim milestones.</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(255,140,66,0.1);">Distant commitments (2050) without binding near-term targets signal greenwashing risk.</td>
+        </tr>
+        <tr style="background: #F9F9F9; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">Tata_2023_156</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #2E86AB;">Substantive ✓</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.85</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Reports WHRS capacity (131 MW), specific emission intensity reduction (9.2%), named certification (ISO 14001).</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(46,134,171,0.1);">Verifiable claims with named technology, quantified outcomes, and third-party certification.</td>
+        </tr>
+        <tr style="background: #FFFFFF; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">UltraTech_2024_033</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #2E86AB;">Substantive ✓</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.78</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Details AFR co-processing rate (7.8%), biomass usage (45,000 tonnes), and TSR improvement over baseline.</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(46,134,171,0.1);">Concrete operational data with year-over-year comparison enables external verification.</td>
+        </tr>
+        <tr style="background: #F9F9F9; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">JSW_2024_067</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #6B7280;">Numeric 📊</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.88</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Pure data: 'Total water recycled: 28.4 million KL; Zero Liquid Discharge achieved at 3 plants.'</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(107,114,128,0.1);">Factual numeric reporting with specific facility counts and volumetric data.</td>
+        </tr>
+        <tr style="background: #FFFFFF; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">Tata_2022_201</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #FF8C42;">Vague ⚠️</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: #F0F0F0;">0.65</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">States 'significant progress in our sustainability journey' and 'committed to a greener future.'</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(255,140,66,0.1);">Hedging language ('significant', 'journey') avoids specificity — borderline greenwashing.</td>
+        </tr>
+        <tr style="background: #F9F9F9; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">UltraTech_2021_055</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #FF8C42;">Vague ⚠️</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.77</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Claims 'leadership in sustainable manufacturing' and 'holistic approach to environmental stewardship.'</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(255,140,66,0.1);">Self-congratulatory framing without external benchmarks or quantified evidence.</td>
+        </tr>
+        <tr style="background: #FFFFFF; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">JSW_2023_145</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #2E86AB;">Substantive ✓</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.82</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Reports specific renewable energy mix (23% of total), solar installation (50 MW), and carbon offset credits purchased.</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(46,134,171,0.1);">Triangulated evidence: percentage, absolute capacity, and market mechanism all cited.</td>
+        </tr>
+        <tr style="background: #F9F9F9; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">Tata_2024_092</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #6B7280;">Numeric 📊</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.93</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Tabular data reference: 'Scope 1: 58.2 MtCO2e; Scope 2: 12.1 MtCO2e; Total energy: 412 PJ.'</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(107,114,128,0.1);">Standard GHG protocol reporting format with all three emission categories quantified.</td>
+        </tr>
+        <tr style="background: #FFFFFF; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">UltraTech_2022_078</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #FF8C42;">Vague ⚠️</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: #F0F0F0;">0.59</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Mixed signals: mentions 'renewable energy expansion' (vague) alongside '15% increase' (semi-specific).</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(255,140,66,0.1);">Ambiguous case: partial quantification insufficient for Substantive classification.</td>
+        </tr>
+        <tr style="background: #F9F9F9; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">JSW_2021_034</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #FF8C42;">Vague ⚠️</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.74</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Uses 'world-class environmental practices' and 'best-in-class governance' without third-party reference.</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(255,140,66,0.1);">Superlative claims without benchmarking or independent verification sources.</td>
+        </tr>
+        <tr style="background: #FFFFFF; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">Tata_2023_178</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #2E86AB;">Substantive ✓</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.86</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Cites SBTi-approved target (1.8 tCO2/tcs by 2030), current performance (2.07 tCO2/tcs), and base year (2018).</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(46,134,171,0.1);">Gold-standard disclosure: externally validated target, current metric, baseline, and timeline.</td>
+        </tr>
+        <tr style="background: #F9F9F9; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">UltraTech_2020_019</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #FF8C42;">Vague ⚠️</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.83</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">States 'We are pioneers in green cement technology' and 'deeply committed to environmental excellence.'</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(255,140,66,0.1);">Pioneer claim without supporting market share data or innovation specifics.</td>
+        </tr>
+        <tr style="background: #FFFFFF; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">JSW_2024_101</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #6B7280;">Numeric 📊</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.87</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">'FY2024 capex on environmental projects: ₹2,847 Cr; Water intensity: 3.2 m³/tcs.'</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(107,114,128,0.1);">Financial and operational metrics with precise fiscal year attribution.</td>
+        </tr>
+        <tr style="background: #F9F9F9; border-bottom: 1pt solid #EEEEEE;">
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: left; vertical-align: top;">Tata_2021_063</td>
+            <td style="padding: 8px; font-size: 10pt; font-weight: bold; text-align: center; vertical-align: top; color: #2E86AB;">Substantive ✓</td>
+            <td style="padding: 8px; font-family: monospace; font-size: 9pt; text-align: center; vertical-align: top; background: transparent;">0.76</td>
+            <td style="padding: 8px; font-size: 9pt; line-height: 1.4; text-align: left; vertical-align: top; max-width: 280px;">Describes carbon capture pilot (0.5 tpd capacity), hydrogen DRI trials, and partnership with CSIR-NML.</td>
+            <td style="padding: 8px; font-size: 9pt; font-style: italic; line-height: 1.4; text-align: left; vertical-align: top; max-width: 260px; background: rgba(46,134,171,0.1);">Named technologies, institutional collaborators, and pilot-scale quantification indicate genuine R&D.</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <p class="note">
+        Note: Full predictions for all 372 sentences available in supplementary CSV:
+        <code>all_predictions_with_confidence.csv</code>.<br>
+        Predictions shown represent a curated sample across all three classes and
+        confidence levels (high ≥0.70 and ambiguous 0.50–0.70).
+    </p>
+</body>
+</html>

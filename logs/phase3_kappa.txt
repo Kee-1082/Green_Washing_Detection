@@ -1,0 +1,5 @@
+=== Phase 3 IAA Report: batch1 ===
+Rater1=rater1 Rater2=rater2 N=100
+Kappa=0.7142  Agree=86/100 (86.0%)
+Interpretation: GOOD (0.60-0.80) - minor schema tweaks recommended
+Disagreements: 14 -> annotations\disagreements_batch1.csv

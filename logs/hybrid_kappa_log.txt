@@ -1,0 +1,2 @@
+[2026-07-16 20:46] mode=llm-human session=1 kappa=nan agree=5/5 overrides=0
+[2026-07-29 19:54] mode=llm-human session=1 kappa=0.6364 agree=16/25 overrides=9

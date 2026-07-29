@@ -1,0 +1,12 @@
+[2026-07-16 20:55] manual=50 model_high=1088 model_low=34 threshold=0.65 total=1172
+[2026-07-16 21:37] manual=48 model_high=984 model_low=140 threshold=0.65 total=1172
+[2026-07-20 14:17] manual=16 model_high=962 model_low=196 threshold=0.65 total=1174
+[2026-07-20 14:23] manual=16 model_high=962 model_low=196 threshold=0.65 total=1174
+[2026-07-20 23:56] manual=16 model_high=962 model_low=196 threshold=0.65 total=1174
+[2026-07-20 23:57] manual=16 model_high=962 model_low=196 threshold=0.65 total=1174
+[2026-07-20 23:58] manual=58 model_high=12 model_low=1104 threshold=0.65 total=1174
+[2026-07-21 00:05] manual=16 model_high=962 model_low=196 threshold=0.65 total=1174
+[2026-07-21 00:06] manual=16 model_high=962 model_low=196 threshold=0.65 total=1174
+[2026-07-21 00:09] manual=58 model_high=12 model_low=1104 threshold=0.65 total=1174
+[2026-07-29 19:45] manual=58 model_high=12 model_low=1104 threshold=0.65 total=1174
+[2026-07-29 19:47] manual=58 model_high=842 model_low=274 threshold=0.55 total=1174
